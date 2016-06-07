@@ -14,7 +14,6 @@ public class Homework33Servlet extends HttpServlet {
 	                Mas[i][j]=(int)(Math.random()*90)+10;
 	                resp.getWriter().print(Mas[i][j]+" ");
 	            }
-	            resp.getWriter().println("<html><body><br></body></html>");
 	        }
 
 			
